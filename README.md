@@ -2,7 +2,7 @@
 
 This project is a C++ implementation of a **Huffman Coding-based text compressor and decompressor**, demonstrating mastery in data structures, algorithms, file I/O, and performance profiling.
 
-## 🔧 Key Features
+## Key Features
 
 - **Huffman Encoding Tree** built using a min-heap (priority queue)
 - Character frequency analysis using hash maps
@@ -11,7 +11,7 @@ This project is a C++ implementation of a **Huffman Coding-based text compressor
 - Real-time performance measurement (compression/decompression time)
 - File size comparison and compression ratio computation
 
-## 🧠 Core Concepts
+## Core Concepts
 
 - **Greedy Algorithms** (Huffman Coding)
 - **Min-Heaps and Trees** for optimal encoding
@@ -20,14 +20,14 @@ This project is a C++ implementation of a **Huffman Coding-based text compressor
 - **Time Profiling** using `std::chrono`
 - **System File Handling** using `stat` for cross-platform file size detection
 
-## 📂 File Workflow
+## File Workflow
 
 1. Reads plain text from `input_main.txt`
 2. Compresses using Huffman codes and writes to `compressed.bin`
 3. Decompresses and prints decoded output
 4. Displays compression stats and performance metrics
 
-## 📊 Sample Results
+## Sample Results
 
 Original size : 5242 bytes
 Compressed size : 2924 bytes
@@ -36,18 +36,18 @@ Compression time: 9 ms
 Decompression time: 4 ms
 
 
-## 💼 Resume Highlights
+## Resume Highlights
 
 - **Built a fully functional file compressor using Huffman Encoding from scratch in C++**
 - **Reduced file size by over 40% on average in real-world test cases**
 - **Applied low-level bit manipulation for actual binary compression**
 - **Implemented performance benchmarking and system-level file stats reporting**
 
-## 🚀 How to Run
-
+## How to Run
 
 g++ -std=c++11 -o huffman main.cpp
 ./huffman
+
 🔗 Suitable For
 Demonstrating algorithmic thinking in technical interviews
 
